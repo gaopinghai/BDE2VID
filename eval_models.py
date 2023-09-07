@@ -112,10 +112,10 @@ def eval_model_alldata(datafiles, checkpoint_file, args):
     fp.close()
     print(f"results writed to {result_file}")
     generate_table([result_file], result_file.replace('.txt', '_table.txt'))
-    detail_resfile = result_file.replace('.txt', '_detail.txt')
-    fp = open(detail_resfile, 'w')
-    json.dump(detail_results, fp)
-    fp.close()
+    # detail_resfile = result_file.replace('.txt', '_detail.txt')
+    # fp = open(detail_resfile, 'w')
+    # json.dump(detail_results, fp)
+    # fp.close()
 
 
 def eval_model(args, model):
