@@ -1,3 +1,10 @@
+# user define
+*results/
+.*
+!/.gitignore
+*.pth
+weights/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
