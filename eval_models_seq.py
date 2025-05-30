@@ -315,7 +315,7 @@ if __name__ == '__main__':
     args.max_length = 111200  # 3000
     args.loader_type = 'H5' # NPY, H5, ENPY
     args.datatype = 'org'  # ecoco, ergb, org, hsergb
-    args.datasets = ['HQF', 'ECD', 'MVSEC', 'RAECD']  # ['HQF', 'IJRR', 'MVSEC', ] 'RAECD_GT' "ENFS" "CECOCO_ENPY"
+    args.datasets = ['HQF/', 'ECD/', 'MVSEC/']  # ['HQF', 'IJRR', 'MVSEC', 'RAECD/', 'RAECD_slow/']
     args.filter_hot_events = False
     args.normalize = False
     args.wait_time = 1
