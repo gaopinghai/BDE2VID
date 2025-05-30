@@ -1,0 +1,13 @@
+# 忽略所有的pycache文件夹
+__pycache__/
+data/
+
+# 忽略所有的软连接
+work_dir*
+saved
+weights
+results
+
+# 忽略所有的隐藏文件和文件夹，.gitignore除外
+.*
+!/.gitignore
